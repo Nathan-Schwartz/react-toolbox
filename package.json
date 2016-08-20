@@ -1,43 +1,73 @@
 {
-  "name": "react-toolbox",
-  "description": "A set of React components implementing Google's Material Design specification with the power of CSS Modules.",
-  "homepage": "http://www.react-toolbox.com",
-  "version": "0.16.2",
-  "main": "./lib",
+  "_args": [
+    [
+      {
+        "name": "react-toolbox",
+        "raw": "react-toolbox@^0.16.2",
+        "rawSpec": "^0.16.2",
+        "scope": null,
+        "spec": ">=0.16.2 <0.17.0",
+        "type": "range"
+      },
+      "/Users/nathanschwartz/Documents/code/thesis/invenstory"
+    ]
+  ],
+  "_from": "react-toolbox@>=0.16.2 <0.17.0",
+  "_id": "react-toolbox@0.16.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-toolbox",
+  "_nodeVersion": "4.3.2",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/react-toolbox-0.16.2.tgz_1460320571622_0.7478738555219024"
+  },
+  "_npmUser": {
+    "email": "javier.velasco86@gmail.com",
+    "name": "javivelasco"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-toolbox",
+    "raw": "react-toolbox@^0.16.2",
+    "rawSpec": "^0.16.2",
+    "scope": null,
+    "spec": ">=0.16.2 <0.17.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-toolbox/-/react-toolbox-0.16.2.tgz",
+  "_shasum": "5dbcab3057f9600801c7c0baab00ec84d81cc4f9",
+  "_shrinkwrap": null,
+  "_spec": "react-toolbox@^0.16.2",
+  "_where": "/Users/nathanschwartz/Documents/code/thesis/invenstory",
   "author": {
     "name": "React Toolbox Team",
     "url": "http://github.com/react-toolbox"
   },
+  "bugs": {
+    "email": "issues@react-toolbox.com",
+    "url": "https://github.com/react-toolbox/react-toolbox/issues"
+  },
   "contributors": [
     {
-      "name": "Javi Jimenez Villar",
       "email": "javi.jimenez.villar@gmail.com",
+      "name": "Javi Jimenez Villar",
       "url": "http://soyjavi.com/"
     },
     {
-      "name": "Javi Velasco Arjona",
       "email": "javier.velasco86@gmail.com",
+      "name": "Javi Velasco Arjona",
       "url": "http://javivelasco.com/"
     }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/react-toolbox/react-toolbox.git"
-  },
-  "bugs": {
-    "url": "https://github.com/react-toolbox/react-toolbox/issues",
-    "email": "issues@react-toolbox.com"
-  },
-  "keywords": [
-    "components",
-    "material design",
-    "react",
-    "react-component",
-    "toolkit"
   ],
   "dependencies": {
     "classnames": "^2.2.1"
   },
+  "description": "A set of React components implementing Google's Material Design specification with the power of CSS Modules.",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-cli": "^6.7.5",
@@ -91,6 +121,46 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "5dbcab3057f9600801c7c0baab00ec84d81cc4f9",
+    "tarball": "https://registry.npmjs.org/react-toolbox/-/react-toolbox-0.16.2.tgz"
+  },
+  "gitHead": "473d1fa1febef62ada45b05325fe988660b16b04",
+  "homepage": "http://www.react-toolbox.com",
+  "keywords": [
+    "components",
+    "material design",
+    "react",
+    "react-component",
+    "toolkit"
+  ],
+  "license": "MIT",
+  "main": "./lib",
+  "maintainers": [
+    {
+      "email": "javier.velasco86@gmail.com",
+      "name": "javivelasco"
+    },
+    {
+      "email": "javi.jimenez.villar@gmail.com",
+      "name": "soyjavi"
+    }
+  ],
+  "name": "react-toolbox",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "classnames": "^2.2.0",
+    "normalize.css": "^4.0.0",
+    "react": "^0.14 || ^15.0.1",
+    "react-addons-css-transition-group": "^0.14.0 || ^15.0.1",
+    "react-dom": "^0.14.0 || ^15.0.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-toolbox/react-toolbox.git"
+  },
   "scripts": {
     "babel": "babel ./components --out-dir ./lib",
     "build": "cross-env NODE_ENV=production npm run babel && npm run sass",
@@ -107,13 +177,6 @@
     "test": "cross-env NODE_ENV=test karma start",
     "test:watch": "cross-env NODE_ENV=test karma start --no-single-run"
   },
-  "license": "MIT",
-  "peerDependencies": {
-    "classnames": "^2.2.0",
-    "normalize.css": "^4.0.0",
-    "react": "^0.14 || ^15.0.1",
-    "react-addons-css-transition-group": "^0.14.0 || ^15.0.1",
-    "react-dom": "^0.14.0 || ^15.0.1"
-  },
-  "typings": "./react-toolbox.d.ts"
+  "typings": "./react-toolbox.d.ts",
+  "version": "0.16.2"
 }
